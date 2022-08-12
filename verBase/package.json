@@ -11,6 +11,7 @@
   "dependencies": {
     "ccxt": "^1.92.14",
     "delay": "^5.0.0",
+    "dotenv": "^16.0.1",
     "moment": "^2.29.4"
   }
 }

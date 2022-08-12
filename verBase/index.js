@@ -1,8 +1,8 @@
 const ccxt = require('ccxt');
 const moment = require('moment');
 const binance = new ccxt.binance({
-    apiKey: 'ae1wMLqNp3h7UnFmBBR4ALos3W5GwFmU8Zxlqrr3emmGS6yRciFq59g2wDs0soo0',
-    secret: 'xxuxAL6B2qAfdIwS5sj3JSOS3KI9LejSfvItIK85J5mBgykHFsdwuVX5RMW2zkPA'
+    apiKey: process.env.apiKey,
+    secret: process.env.secret
 });
 const delay = require('delay');
 
